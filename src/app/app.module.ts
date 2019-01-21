@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { InserirTarefaComponent } from './inserir-tarefa/inserir-tarefa.component';
 import { TarefaCriadaComponent } from './tarefa-criada/tarefa-criada.component';
 import { TarefaCompletaComponent } from './tarefa-completa/tarefa-completa.component';
+import { CentralizarDirective } from './shared/centralizar.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     InserirTarefaComponent,
     TarefaCriadaComponent,
-    TarefaCompletaComponent
+    TarefaCompletaComponent,
+    CentralizarDirective
   ],
   imports: [
     BrowserModule,
